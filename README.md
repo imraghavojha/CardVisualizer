@@ -14,7 +14,7 @@ CardVisualizer is a C++ library for drawing playing cards in various designs dir
 1. **Clone the repository:**
 
     ```sh
-    git clone https://github.com/yourusername/CardVisualizer.git
+    git clone https://github.com/imraghavojha/CardVisualizer.git
     cd CardVisualizer
     ```
 
