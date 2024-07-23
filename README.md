@@ -38,7 +38,7 @@ A `Card` object can be created using the constructor:
 ```cpp
 Card card_name("CardName", 'Symbol', 'Design', Variation, Turned);
 
-
+```
 
 
 
@@ -52,7 +52,7 @@ Drawing a Single Card
 To draw a single card, use the draw_card function:
 
 
-
+```
 #include "CardDrawer.h"
 
 int main() {
@@ -60,13 +60,12 @@ int main() {
     CardDrawer::draw_card(ace_of_spades);
     return 0;
 }
-
+```
 
 Drawing Multiple Cards
 To draw multiple cards side by side, use the draw_multiple_cards function:
 
-cpp
-Copy code
+```
 #include "CardDrawer.h"
 #include <vector>
 
@@ -81,11 +80,12 @@ int main() {
     CardDrawer::draw_multiple_cards(cards);
     return 0;
 }
+
+```
 Drawing a Turned Card
 To draw a turned card, set the Turned parameter to true:
 
-cpp
-Copy code
+```
 #include "CardDrawer.h"
 
 int main() {
@@ -93,10 +93,11 @@ int main() {
     CardDrawer::draw_card(turned_card);
     return 0;
 }
+
+```
 License 📜
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-sql
-Copy code
+
 
 Feel free to adjust or add any emojis according to your preference!
