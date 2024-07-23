@@ -144,6 +144,3 @@ For a turned card:
 ## License 📜
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-This `README.md` includes everything in one file with code examples, usage instructions, sample outputs, and license information.
